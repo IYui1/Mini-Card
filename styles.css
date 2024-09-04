@@ -1,0 +1,81 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 150px 150px 200px;
+}
+
+.card{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 35%;
+    padding: 16px;
+    border-radius: 16px;
+    margin: 0 auto;
+
+}
+
+.container{
+    padding: 2px;
+
+}
+.button{
+    background-color: #EADCF8; 
+    color: #8E44AD; 
+    padding: 6px 10px;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 20px;
+    display: inline-flex; 
+}
+
+h2,p{
+    padding-right: 50px;
+    color: rgb(78, 78, 78);
+    margin-bottom: auto;
+}
+img{
+    border-radius: 16px;
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 100px 10px 50px; /* Menyesuaikan padding untuk layar menengah */
+    }
+
+    .card {
+        width: 90%; /* Menyesuaikan lebar card */
+        padding: 12px;
+    }
+
+    .button {
+        font-size: medium;
+        padding: 8px 12px;
+    }
+
+    h2, p {
+        padding-right: 20px;
+    }
+}
+
+/* Media query untuk layar lebih kecil dari 480px */
+@media only screen and (max-width: 480px) {
+    body {
+        padding: 50px 10px 20px; /* Menyesuaikan padding untuk layar kecil */
+    }
+
+    .card {
+        width: 95%; /* Menyesuaikan lebar card */
+        padding: 10px;
+    }
+
+    .button {
+        font-size: small;
+        padding: 6px 10px;
+    }
+
+    h2, p {
+        padding-right: 10px;
+    }
+}
